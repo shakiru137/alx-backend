@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Maiin file
+Main file
 """
 
 index_range = __import__('0-simple_helper_function').index_range
