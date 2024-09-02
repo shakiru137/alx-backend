@@ -4,6 +4,7 @@ This module provides a function to calculate the start and end indexes
 for paginating data based on the given page number and page size.
 """
 
+
 def index_range(page, page_size):
     """
     Calculate the start and end indexes for pagination.
