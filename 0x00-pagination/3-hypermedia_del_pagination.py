@@ -77,7 +77,7 @@ class Server:
             return []
         return data[start:end]
 
-    def get_hyper_index(self, index: int = 0, page_size: int = 10) -> Dict:
+    def get_hyper_index(self, index: int = None, page_size: int = 10) -> Dict:
         """Retrieves info about a page from a given index with a specified
         size.
 
